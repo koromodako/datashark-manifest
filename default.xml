@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Configuration -->
+  <remote name="github" fetch="ssh://git@github.com/koromodako" review="" />
+  <default revision="master" remote="github" sync-j="4" />
+  <!-- Repositories -->
+  <project path="datashark-core" name="datashark-core" groups="core" />
+  <project path="datashark-service" name="datashark-service" groups="service" />
+  <project path="datashark-server" name="datashark-server" groups="server" />
+  <project path="datashark-cli" name="datashark-cli" groups="cli" />
+  <!-- Plugin Repositories -->
+  <project path="datashark-plugins" name="datashark-plugins" groups="plugins" />
+</manifest>
