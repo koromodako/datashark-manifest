@@ -8,6 +8,7 @@
   <project path="datashark-service" name="datashark-service" groups="service" />
   <project path="datashark-cli" name="datashark-cli" groups="cli" />
   <!-- Plugin Repositories -->
+  <project path="datashark-plugin-template" name="datashark-plugin-template" groups="plugin" />
   <project path="datashark-plugin-tsk" name="datashark-plugin-tsk" groups="plugin" />
   <project path="datashark-plugin-properties" name="datashark-plugin-properties" groups="plugin" />
   <project path="datashark-plugin-forensics" name="datashark-plugin-forensics" groups="plugin" />
