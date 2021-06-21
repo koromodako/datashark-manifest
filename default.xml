@@ -6,8 +6,11 @@
   <!-- Repositories -->
   <project path="datashark-core" name="datashark-core" groups="core" />
   <project path="datashark-service" name="datashark-service" groups="service" />
-  <project path="datashark-server" name="datashark-server" groups="server" />
   <project path="datashark-cli" name="datashark-cli" groups="cli" />
   <!-- Plugin Repositories -->
-  <project path="datashark-plugins" name="datashark-plugins" groups="plugins" />
+  <project path="datashark-plugin-tsk" name="datashark-plugin-tsk" groups="plugin" />
+  <project path="datashark-plugin-properties" name="datashark-plugin-properties" groups="plugin" />
+  <project path="datashark-plugin-forensics" name="datashark-plugin-forensics" groups="plugin" />
+  <project path="datashark-plugin-vhd" name="datashark-plugin-vhd" groups="plugin" />
+  <project path="datashark-plugin-vmdk" name="datashark-plugin-vmdk" groups="plugin" />
 </manifest>
