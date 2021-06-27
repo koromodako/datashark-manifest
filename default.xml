@@ -13,7 +13,6 @@
   <project path="datashark-plugin-template" name="datashark-plugin-template" groups="prod,plugin,template" />
   <project path="datashark-plugin-tsk" name="datashark-plugin-tsk" groups="prod,plugin,extractor" />
   <project path="datashark-plugin-properties" name="datashark-plugin-properties" groups="prod,plugin,refiner" />
-  <project path="datashark-plugin-forensics" name="datashark-plugin-forensics" groups="prod,plugin" />
   <project path="datashark-plugin-vhd" name="datashark-plugin-vhd" groups="prod,plugin,extractor" />
   <project path="datashark-plugin-vmdk" name="datashark-plugin-vmdk" groups="prod,plugin,extractor" />
   <project path="datashark-plugin-windows" name="datashark-plugin-windows" groups="prod,plugin,refiner" />
