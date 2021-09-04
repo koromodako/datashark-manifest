@@ -4,17 +4,13 @@
   <remote name="github" fetch="ssh://git@github.com/koromodako" review="" />
   <default revision="master" remote="github" sync-j="4" />
   <!-- Development Repositories -->
-  <project path="datashark-dev" name="datashark-dev" groups="dev" />
+  <project path="datashark-dev" name="datashark-dev" groups="dev,independent" />
   <!-- Production Repositories -->
-  <project path="datashark-core" name="datashark-core" groups="prod,core" />
-  <project path="datashark-service" name="datashark-service" groups="prod,service" />
-  <project path="datashark-cli" name="datashark-cli" groups="prod,cli" />
-  <!-- Production Plugin Repositories -->
-  <project path="datashark-plugin-template" name="datashark-plugin-template" groups="prod,plugin,template" />
-  <project path="datashark-plugin-tsk" name="datashark-plugin-tsk" groups="prod,plugin,extractor" />
-  <project path="datashark-plugin-properties" name="datashark-plugin-properties" groups="prod,plugin,refiner" />
-  <project path="datashark-plugin-vhd" name="datashark-plugin-vhd" groups="prod,plugin,extractor" />
-  <project path="datashark-plugin-vmdk" name="datashark-plugin-vmdk" groups="prod,plugin,extractor" />
-  <project path="datashark-plugin-windows" name="datashark-plugin-windows" groups="prod,plugin,refiner" />
-  <project path="datashark-plugin-linux" name="datashark-plugin-linux" groups="prod,plugin,refiner" />
+  <project path="datashark-core" name="datashark-core" groups="prod,core,independent" />
+  <project path="datashark-agent" name="datashark-agent" groups="prod,agent,independent" />
+  <project path="datashark-cli" name="datashark-cli" groups="prod,cli,independent" />
+  <!-- Production Processors Repositories -->
+  <project path="datashark-processors-template" name="datashark-processors-template" groups="dev,processors,template" />
+  <project path="datashark-processors-windows" name="datashark-processors-windows" groups="prod,processors,windows" />
+  <project path="datashark-processors-linux" name="datashark-processors-linux" groups="prod,processors,linux" />
 </manifest>
