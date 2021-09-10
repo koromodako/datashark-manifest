@@ -10,6 +10,7 @@
   <project path="datashark-agent" name="datashark-agent" groups="prod,agent,independent" />
   <project path="datashark-cli" name="datashark-cli" groups="prod,cli,independent" />
   <!-- Production Processors Repositories -->
+  <project path="datashark-processors-independent" name="datashark-processors-independent" groups="dev,processors,independent" />
   <project path="datashark-processors-template" name="datashark-processors-template" groups="dev,processors,template" />
   <project path="datashark-processors-windows" name="datashark-processors-windows" groups="prod,processors,windows" />
   <project path="datashark-processors-linux" name="datashark-processors-linux" groups="prod,processors,linux" />
