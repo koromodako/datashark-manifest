@@ -3,6 +3,8 @@
   <!-- Configuration -->
   <remote name="github" fetch="ssh://git@github.com/koromodako" review="" />
   <default revision="master" remote="github" sync-j="4" />
+  <!-- Documentation repositories -->
+  <project path="datashark" name="datashark" groups="dev,website,independent" />
   <!-- Development Repositories -->
   <project path="datashark-dev" name="datashark-dev" groups="dev,independent" />
   <!-- Production Repositories -->
